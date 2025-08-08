@@ -1,0 +1,21 @@
+{
+    "tasks": [
+      {"id": "T1", "cpu": 2, "ram": 4, "deadline": 3},
+      {"id": "T2", "cpu": 1, "ram": 2, "deadline": 4},
+      {"id": "T3", "cpu": 3, "ram": 5, "deadline": 5},
+      {"id": "T4", "cpu": 2, "ram": 3, "deadline": 6}
+    ],
+    "nodes": [
+      {"id": "N1", "cpu_capacity": 5, "ram_capacity": 6},
+      {"id": "N2", "cpu_capacity": 3, "ram_capacity": 4},
+      {"id": "N3", "cpu_capacity": 4, "ram_capacity": 6},
+      {"id": "N4", "cpu_capacity": 4, "ram_capacity": 5}
+    ],
+    "exec_cost": {
+      "T1": {"N1": 3, "N2": 5, "N3": 6, "N4": 7},
+      "T2": {"N1": 2, "N2": 4, "N3": 5, "N4": 6},
+      "T3": {"N1": 4, "N2": 6, "N3": 7, "N4": 8},
+      "T4": {"N1": 5, "N2": 7, "N3": 6, "N4": 5}
+    }
+  }
+  

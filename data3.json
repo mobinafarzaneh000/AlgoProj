@@ -1,0 +1,18 @@
+{
+    "tasks": [
+      {"id": "T1", "cpu": 1, "ram": 1, "deadline": 10},
+      {"id": "T2", "cpu": 1, "ram": 1, "deadline": 10},
+      {"id": "T3", "cpu": 1, "ram": 1, "deadline": 10}
+    ],
+    "nodes": [
+      {"id": "N1", "cpu_capacity": 2, "ram_capacity": 2, "task_limit": 2},
+      {"id": "N2", "cpu_capacity": 1, "ram_capacity": 1, "task_limit": 1}
+    ],
+    "exec_cost": {
+      "T1": {"N1": 1, "N2": 100},
+      "T2": {"N1": 2, "N2": 3},
+      "T3": {"N1": 2, "N2": 100}
+    }
+  }
+
+  
