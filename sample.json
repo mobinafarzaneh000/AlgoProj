@@ -1,0 +1,24 @@
+{
+    "tasks": [
+      {"id": "T1", "cpu": 2, "ram": 3, "deadline": 15},
+      {"id": "T2", "cpu": 1, "ram": 4, "deadline": 20},
+      {"id": "T3", "cpu": 3, "ram": 2, "deadline": 10},
+      {"id": "T4", "cpu": 2, "ram": 3, "deadline": 25},
+      {"id": "T5", "cpu": 4, "ram": 4, "deadline": 30},
+      {"id": "T6", "cpu": 1, "ram": 1, "deadline": 5}
+    ],
+    "nodes": [
+      {"id": "N1", "cpu_capacity": 4, "ram_capacity": 6, "task_limit": 3},
+      {"id": "N2", "cpu_capacity": 6, "ram_capacity": 8, "task_limit": 4},
+      {"id": "N3", "cpu_capacity": 2, "ram_capacity": 4, "task_limit": 2},
+      {"id": "N4", "cpu_capacity": 3, "ram_capacity": 3, "task_limit": 2}
+    ],
+    "exec_cost": {
+      "T1": {"N1": 5, "N2": 15, "N3": 20, "N4": 25},
+      "T2": {"N1": 10, "N2": 8, "N3": 15, "N4": 30},
+      "T3": {"N1": 20, "N2": 10, "N3": 25, "N4": 40},
+      "T4": {"N1": 8, "N2": 12, "N3": 18, "N4": 15},
+      "T5": {"N1": 30, "N2": 20, "N3": 50, "N4": 60},
+      "T6": {"N1": 2, "N2": 5, "N3": 3, "N4": 4}
+    }
+  }
