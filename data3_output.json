@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "assignments": {
+    "T2": "N2",
+    "T3": "N1",
+    "T1": "N1"
+  },
+  "total_cost": 6
+}
